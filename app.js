@@ -42,6 +42,6 @@ if (document.getElementById('adviceData')) {
       document.getElementById('adviceData').textContent = `${data.slip.advice}`;
     })
     .catch(() => {
-      document.getElementById('weatherData').textContent = 'Brak połączenia z api.';
+      document.getElementById('adviceData').textContent = 'Brak połączenia z api.';
     });
 }
